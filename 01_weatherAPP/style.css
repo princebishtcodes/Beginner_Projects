@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+body {
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: linear-gradient(to right, rgb(0, 78, 48), rgb(76, 8, 124));
+    width: 25rem;
+    /* height: 30rem; */
+    border-radius: 15px;
+    padding: 3rem;
+    margin: 5rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.search-bar {
+    width: 16rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 30px;
+    /* margin-left: 0.5rem; */
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.search-icon {
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-icon img {
+    width: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 10px;
+    width: 12rem;
+}
+
+.temp {
+    font-size: 1.7rem;
+    /* font-weight: bolder; */
+}
+
+.city {
+    font-size: 2rem;
+    font-weight: none;
+}
+
+.bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.humidity,
+.wind {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.humidity .humidval,
+.wind .wind1 {
+    margin: 0;
+    font-size: rem;
+    font-weight: bold;
+}
+
+.col {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+}
+
+.col img {
+    width: 40px
+}
+
+.weather{
+    /* display: none; */
+}

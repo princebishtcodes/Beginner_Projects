@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    /* height: 500px; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.heading img {
+    width: 40px;
+    margin-left: 12px;
+}
+
+.userInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+.heading-input {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.inputClass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    /* width: 70%; */
+
+
+}
+
+.addButton {
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    background-color: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.check {
+    width: 20px;
+}
+
+.taskList{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
