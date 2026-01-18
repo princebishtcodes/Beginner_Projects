@@ -1,2 +1,2 @@
 # Beginner_Projects
-# Beginner_Projects
+This repository contains a collection of my Basic Beginner Level HTML, CSS and JS Projects...
